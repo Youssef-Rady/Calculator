@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body id="background" class="background">
+  <div id="calculator">
+    <div id="title">
+      <h1>calc</h1>
+      <div id="theme">
+        <p>THEME</p>
+        <div id="onetwothree">
+          <p>1 2 3</p>
+          <div id="switch" class="switch" onclick="switch4()">
+            <div id="ball" class="ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="display" class="display">
+      0
+    </div>
+    <div id="buttons" class="buttons">
+      <div class="row">
+        <div class="num numbers" onclick="calculate(7)">7</div>
+        <div class="num numbers" onclick="calculate(8)">8</div>
+        <div class="num numbers" onclick="calculate(9)">9</div>
+        <div id="deletebtn" class="bluebtn blue" onclick="calculate('DEL')">DEL</div>
+      </div>
+      <div class="row">
+        <div class="num numbers" onclick="calculate(4)">4</div>
+        <div class="num numbers" onclick="calculate(5)">5</div>
+        <div class="num numbers" onclick="calculate(6)">6</div>
+        <div class="num numbers" onclick="calculate('+')">+</div>
+      </div>
+      <div class="row">
+        <div class="num numbers" onclick="calculate(1)">1</div>
+        <div class="num numbers" onclick="calculate(2)">2</div>
+        <div class="num numbers" onclick="calculate(3)">3</div>
+        <div class="num numbers" onclick="calculate('-')">-</div>
+      </div>
+      <div class="row">
+        <div class="num numbers" onclick="calculate('.')">.</div>
+        <div class="num numbers" onclick="calculate(0)">0</div>
+        <div class="num numbers" onclick="calculate('/')">/</div>
+        <div class="num numbers" onclick="calculate('x')">x</div>
+      </div>
+      <div class="row">
+        <div id="resetbtn" class="bluebtn blue" onclick="calculate('Reset')">Reset</div>
+        <div id="redbtn" class="redbtn" onclick="calculate('=')">=</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Youssef Rady</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

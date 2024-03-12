@@ -1,0 +1,266 @@
+*
+{
+    box-sizing: border-box;
+}
+
+#background
+{
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.background
+{
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+    
+}
+
+.background2
+{
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(60, 10%, 19%);
+}
+
+.background3
+{
+    background-color: hsl(268, 75%, 9%);
+    color: hsl(52, 100%, 62%);
+}
+
+#calculator
+{
+    margin: 1% auto;
+    width: 30%;
+    min-width: 400px;
+    min-height: 300px;
+}
+
+#title
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#theme
+{
+    display: flex;
+    align-items: center;
+}
+#onetwothree
+{
+    margin-left: 10px;
+}
+
+#switch
+{
+    border-radius: 10px 10px 10px 10px;
+    width: 60px;
+    height: 15px;
+    display: flex;
+}
+
+.switch
+{
+    background-color: hsl(223, 31%, 20%);
+    justify-content: baseline;
+}
+
+.switch2
+{
+    background-color: hsl(0, 5%, 81%);
+    justify-content: center;
+}
+
+.switch3
+{
+    background-color: hsl(268, 71%, 12%);
+    justify-content: end;
+}
+
+#ball
+{
+    padding: 7px;
+    margin: 0px;
+    border-radius: 100%;
+}
+
+.ball
+{
+    background-color: hsl(6, 63%, 50%);
+}
+
+.ball2
+{
+    background-color: hsl(25, 98%, 40%);
+}
+
+.ball3
+{
+    background-color: hsl(176, 100%, 44%);
+}
+
+#display
+{
+    justify-content: end;
+    margin-top: 2%;
+    display: flex;
+    font-size: 50px;
+    overflow: hidden;
+    padding: 8% 5%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.display
+{
+    background-color: hsl(224, 36%, 15%);
+}
+
+.display2
+{
+    background-color: hsl(0, 5%, 81%);
+}
+
+.display3
+{
+    background-color: hsl(268, 71%, 12%);
+}
+
+#buttons
+{
+    margin-top: 2%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 4%;
+    min-height: 300px;
+}
+
+.buttons{
+    background-color: hsl(223, 32%, 20%);
+}
+
+.buttons2{
+    background-color: hsl(0, 5%, 81%);
+}
+
+.buttons3{
+    background-color: hsl(268, 71%, 12%);
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    min-height: 70px;
+}
+
+.row div
+{
+    height: 7vh;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.numbers
+{
+    margin: 2%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.num
+{
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    box-shadow: 0px 5px hsl(28, 16%, 65%);
+}
+
+.num2
+{
+    background-color: hsl(45, 7%, 89%);
+    color: hsl(60, 10%, 19%);
+    box-shadow: 0px 5px hsl(35, 11%, 61%);
+}
+
+.num3
+{
+    background-color: hsl(268, 47%, 21%);
+    color: hsl(52, 100%, 62%);
+    box-shadow: 0px 5px hsl(290, 70%, 36%);
+}
+
+#deletebtn
+{
+    margin: 2%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+#resetbtn
+{
+    width: 45%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.bluebtn
+{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 5px hsl(224, 28%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+.bluebtn2
+{
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0px 5px hsl(185, 58%, 25%);
+    color: hsl(0, 0%, 100%);
+}
+
+.bluebtn3
+{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0px 5px hsl(285, 91%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+#redbtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 2%;
+    min-height: 50px;
+}
+
+.redbtn
+{  
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 5px hsl(6, 70%, 34%);
+    color: hsl(0, 0%, 100%);
+}
+
+.redbtn2
+{  
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0px 5px hsl(25, 99%, 27%);
+    color: hsl(0, 0%, 100%);
+}
+
+.redbtn3
+{  
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0px 5px hsl(177, 92%, 70%);
+    color: hsl(198, 20%, 13%);
+}
