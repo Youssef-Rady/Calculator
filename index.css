@@ -13,7 +13,6 @@
 {
     background-color: hsl(222, 26%, 31%);
     color: white;
-    
 }
 
 .background2
@@ -32,7 +31,7 @@
 {
     margin: 1% auto;
     width: 30%;
-    min-width: 400px;
+    min-width: 350px;
     min-height: 300px;
 }
 
@@ -58,6 +57,7 @@
     width: 60px;
     height: 15px;
     display: flex;
+    cursor: pointer;
 }
 
 .switch
@@ -168,6 +168,7 @@
     justify-content: center;
     align-items: center;
     min-height: 50px;
+    cursor: pointer;
 }
 
 .num
@@ -199,6 +200,7 @@
     justify-content: center;
     align-items: center;
     min-height: 50px;
+    cursor: pointer;
 }
 
 #resetbtn
@@ -210,6 +212,7 @@
     justify-content: center;
     align-items: center;
     min-height: 50px;
+    cursor: pointer;
 }
 
 .bluebtn
@@ -242,6 +245,7 @@
     margin: auto;
     margin-top: 2%;
     min-height: 50px;
+    cursor: pointer;
 }
 
 .redbtn
